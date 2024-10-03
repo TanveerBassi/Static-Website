@@ -1,0 +1,149 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* ... other styles remain the same ... */
+
+.welcome-message {
+    display: flex;
+    flex-direction: column;
+    color: #ff6600;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.title {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.welcome-message br {
+    display: block;
+    margin: 0.25em 0;
+}
+
+
+/* Header styles */
+header {
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: #0066cc;
+    text-align: center;
+}
+
+h2 {
+    color: #ff6600;
+    text-align: center;
+}
+
+.centered-text {
+    width: 100%;
+    height: 200px; /* Adjust this value as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Contact form styles */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Book grid styles */
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.book-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+.book-item h3 {
+    margin-bottom: 10px;
+}
+
+.book-item p {
+    font-size: 14px;
+    color: #666;
+}
